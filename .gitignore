@@ -1,0 +1,18 @@
+# Third-party raw datasets: download from their original providers.
+/data/*
+!/data/README.md
+# Fresh outputs
+/output/
+/outputs/
+/results/generated/
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.aux
+*.out
+*.synctex.gz

@@ -1,0 +1,14 @@
+# GitHub citation metadata for the research software, NOT a journal-publication claim.
+cff-version: 1.2.0
+message: "If you use this code, please cite the repository and the relevant original dataset publications."
+title: "BESC-SCC: directed communication network sparsification research code"
+type: software
+authors:
+  - family-names: Błocki
+    given-names: Władysław
+keywords:
+  - graph sparsification
+  - strongly connected components
+  - Jensen-Shannon divergence
+  - communication networks
+license: MIT
