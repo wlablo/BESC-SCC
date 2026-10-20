@@ -1,0 +1,25 @@
+{
+  "network_counts": {
+    "email-Eu-core": {
+      "nodes": 1005,
+      "arcs": 24929,
+      "groups": 42,
+      "labels": "observed departments"
+    },
+    "Polblogs": {
+      "nodes": 1490,
+      "arcs": 19014,
+      "groups": 2,
+      "labels": "observed blog categories"
+    },
+    "CollegeMsg": {
+      "nodes": 1899,
+      "arcs": 20296,
+      "groups": 16,
+      "labels": "Louvain inferred, seed=17"
+    }
+  },
+  "trial_note": "Three protected-mask seeds per observed network; not independent network samples. CollegeMsg temporal events were collapsed to unique static directed arcs.",
+  "college_sha256": "50ae2d98ed3bad9ddb18dbd495a89e5e10cfb8f7e86932827db29fc41b41f9fa",
+  "comparison_warning": "Baselines are custom heuristics, not faithful reproductions of full published state-of-the-art algorithms."
+}

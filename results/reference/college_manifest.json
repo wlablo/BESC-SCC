@@ -1,0 +1,45 @@
+{
+  "datasets": {
+    "CollegeMsg": {
+      "temporal_records": 59835,
+      "static_arcs": 20296,
+      "self_loops_in_raw": 0,
+      "label_origin": "Louvain inferred, undirected projected, seed=17",
+      "sha256": "50ae2d98ed3bad9ddb18dbd495a89e5e10cfb8f7e86932827db29fc41b41f9fa",
+      "nodes": 1899,
+      "edges": 20296,
+      "groups": 16,
+      "scc_count": 601,
+      "largest_scc": 1294,
+      "protected_masks": [
+        {
+          "trial": 0,
+          "scc_certificate_edges": 2591,
+          "legacy_protected_edges": 2485,
+          "union_protected_edges": 4484,
+          "protected_fraction": 0.22093023255813954
+        },
+        {
+          "trial": 1,
+          "scc_certificate_edges": 2594,
+          "legacy_protected_edges": 2496,
+          "union_protected_edges": 4532,
+          "protected_fraction": 0.22329523058730785
+        },
+        {
+          "trial": 2,
+          "scc_certificate_edges": 2592,
+          "legacy_protected_edges": 2501,
+          "union_protected_edges": 4516,
+          "protected_fraction": 0.2225068979109184
+        }
+      ]
+    }
+  },
+  "methods": "Seven SCC-certificate-constrained methods and one BESC legacy reference; three trials each, rho=.3/.5/.7.",
+  "methodological_warning": "All comparators adapted/implemented here are research heuristics; NOT faithful reimplementations of full published algorithms. Strong certificate is classical.",
+  "software": {
+    "python": "3.13.5",
+    "networkx": "3.6.1"
+  }
+}
